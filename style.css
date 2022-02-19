@@ -1,0 +1,139 @@
+body{
+    overflow-x:hidden !important;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+p {
+    
+     font-family: 'Playfair Display', serif;
+}
+.hero img{
+    border: 3px solid rgb(235, 226, 226);
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 50%);
+}
+
+.jumbotron{
+    background-color: #e0f7fa ;
+}
+
+.brand-logo{
+    /* font-family: 'Shizuru', cursive;
+     */
+     font-family: 'Playfair Display', serif;
+}
+.sidenav{
+    width: 300px;
+}
+.sidenav li a{
+      font-family: 'Shizuru', cursive;
+      color: #e0f7fa;  
+      padding: 50px;
+      font-variant: small-caps;
+      transition: ease-in-out .5s ;
+}
+.sidenav li a i{
+    color: #ffff00 ;
+}
+.sidenav li a:hover{
+    transform:translate(50px, 0);
+}
+#navbar li a{
+    font-family: 'Shizuru', cursive;
+    transition: ease-in-out .7s ;
+}
+#navbar li a:hover{
+    transform:translate(20px, 0);
+    background-color: #00796b ;
+}
+.judul1, .kata1, .judul2{
+     font-family: 'Shizuru', cursive;
+}
+.about{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.parallax img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100px -100px;
+    height: 80vh;
+  
+}
+#skill{
+    background-color:#e0f7fa;
+    width : 100%;
+    justify-content : center;
+    display:block;
+    align-items:center;
+}
+
+.kartu{
+    transition: 1s ease-in-out;
+    box-shadow: 1px 5px 10px rgb(0 0 0 / 50%)  ;
+}
+.kartu:hover{
+    transform: scale(.9);
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width :768px ) {
+    .brand-logo i{
+        padding-top: -50px;
+        margin-top: -10px;
+    }
+    .parallax img{
+        height : 100%;
+    }
+}
+@media screen and (max-width : 576px ) {
+    .brand-logo i{
+        margin-top: 7px;
+        height : 50%;
+    }
+}
+@media screen and (max-width : 370px) {
+    .judul1{
+        font-size: 40px;
+    }
+    body{
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    .parallax img{
+        height :50%;
+    }
+}
